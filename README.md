@@ -1,0 +1,3 @@
+# NewApp
+
+Alpha version (MVP)
