@@ -54,6 +54,10 @@
 	<string>NewApp</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>I need it</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>I always need it</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>

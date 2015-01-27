@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C3800F01A76F7E300B10741 /* InfoSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3800EF1A76F7E300B10741 /* InfoSearchView.swift */; };
+		4C7E32551A770D1A006044E5 /* MapToProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7E32541A770D1A006044E5 /* MapToProfileView.swift */; };
 		4C93DF611A72FB3400F4039D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C93DF601A72FB3400F4039D /* AppDelegate.swift */; };
 		4C93DF641A72FB3400F4039D /* NewApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4C93DF621A72FB3400F4039D /* NewApp.xcdatamodeld */; };
 		4C93DF661A72FB3400F4039D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C93DF651A72FB3400F4039D /* LoginViewController.swift */; };
@@ -31,6 +33,8 @@
 		4C93DFAD1A7301EC00F4039D /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C93DFAA1A7301EB00F4039D /* TwitterKit.framework */; };
 		4C93DFAE1A7301EC00F4039D /* TwitterKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4C93DFAB1A7301EC00F4039D /* TwitterKitResources.bundle */; };
 		4C93DFAF1A7301EC00F4039D /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C93DFAC1A7301EC00F4039D /* Fabric.framework */; };
+		4C9D514F1A75FE2900A495E3 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C9D514E1A75FE2900A495E3 /* ParseFacebookUtils.framework */; };
+		4C9D51511A76B3D100A495E3 /* MainMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9D51501A76B3D100A495E3 /* MainMapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C3800EF1A76F7E300B10741 /* InfoSearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoSearchView.swift; sourceTree = "<group>"; };
+		4C7E32541A770D1A006044E5 /* MapToProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapToProfileView.swift; sourceTree = "<group>"; };
 		4C93DF5B1A72FB3400F4039D /* NewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C93DF5F1A72FB3400F4039D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C93DF601A72FB3400F4039D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -73,6 +79,8 @@
 		4C93DFAA1A7301EB00F4039D /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterKit.framework; sourceTree = SOURCE_ROOT; };
 		4C93DFAB1A7301EC00F4039D /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = TwitterKit.framework/Versions/A/Resources/TwitterKitResources.bundle; sourceTree = SOURCE_ROOT; };
 		4C93DFAC1A7301EC00F4039D /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = SOURCE_ROOT; };
+		4C9D514E1A75FE2900A495E3 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		4C9D51501A76B3D100A495E3 /* MainMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +93,7 @@
 				4C93DF9C1A72FE7D00F4039D /* libz.dylib in Frameworks */,
 				4C93DFAF1A7301EC00F4039D /* Fabric.framework in Frameworks */,
 				4C93DF9A1A72FE7700F4039D /* SystemConfiguration.framework in Frameworks */,
+				4C9D514F1A75FE2900A495E3 /* ParseFacebookUtils.framework in Frameworks */,
 				4C93DF981A72FE6F00F4039D /* StoreKit.framework in Frameworks */,
 				4C93DF961A72FE6A00F4039D /* Security.framework in Frameworks */,
 				4C93DF941A72FE6400F4039D /* QuartzCore.framework in Frameworks */,
@@ -135,6 +144,9 @@
 				4C93DF601A72FB3400F4039D /* AppDelegate.swift */,
 				4C93DF651A72FB3400F4039D /* LoginViewController.swift */,
 				4C93DF671A72FB3400F4039D /* Main.storyboard */,
+				4C3800EF1A76F7E300B10741 /* InfoSearchView.swift */,
+				4C7E32541A770D1A006044E5 /* MapToProfileView.swift */,
+				4C9D51501A76B3D100A495E3 /* MainMapView.swift */,
 				4C93DF6A1A72FB3400F4039D /* Images.xcassets */,
 				4C93DF6C1A72FB3400F4039D /* LaunchScreen.xib */,
 				4C93DF621A72FB3400F4039D /* NewApp.xcdatamodeld */,
@@ -171,6 +183,7 @@
 		4C93DF831A72FB7E00F4039D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4C9D514E1A75FE2900A495E3 /* ParseFacebookUtils.framework */,
 				4C93DFAA1A7301EB00F4039D /* TwitterKit.framework */,
 				4C93DFAB1A7301EC00F4039D /* TwitterKitResources.bundle */,
 				4C93DFAC1A7301EC00F4039D /* Fabric.framework */,
@@ -312,8 +325,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C3800F01A76F7E300B10741 /* InfoSearchView.swift in Sources */,
 				4C93DF661A72FB3400F4039D /* LoginViewController.swift in Sources */,
 				4C93DF641A72FB3400F4039D /* NewApp.xcdatamodeld in Sources */,
+				4C9D51511A76B3D100A495E3 /* MainMapView.swift in Sources */,
+				4C7E32551A770D1A006044E5 /* MapToProfileView.swift in Sources */,
 				4C93DF611A72FB3400F4039D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -523,6 +539,7 @@
 				4C93DF7F1A72FB3500F4039D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C93DF801A72FB3500F4039D /* Build configuration list for PBXNativeTarget "NewAppTests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +548,7 @@
 				4C93DF821A72FB3500F4039D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
