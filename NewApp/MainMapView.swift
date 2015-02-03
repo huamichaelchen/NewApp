@@ -10,7 +10,9 @@ import UIkit
 import MapKit
 import CoreLocation
 
-class MainMapView: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
+
+class MainMapView: UIViewController, MKMapViewDelegate,
+CLLocationManagerDelegate {
   
   @IBOutlet weak var mapView: MKMapView!
   @IBOutlet weak var profileContainerView: UIView!
@@ -22,6 +24,7 @@ class MainMapView: UIViewController, MKMapViewDelegate, CLLocationManagerDelegat
   @IBAction func showProfileView(sender: UIBarButtonItem) {
     mapView.alpha = 0.5
     profileContainerView.hidden = false
+    
   }
   
   
